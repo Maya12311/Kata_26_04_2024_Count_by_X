@@ -1,0 +1,12 @@
+public class Kata{
+  public static int[] countBy(int x, int n){
+    // Your code here
+    int [] result = new int[n] ;
+    int count=0; 
+    for(int i = 1; i<=n; i++ ){
+      result[count] = i*x; 
+      count++; 
+    }
+    return result;
+  }
+}
